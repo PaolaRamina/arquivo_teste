@@ -21,7 +21,7 @@ st.dataframe(dfe.head(3))
 
 "---"
 # Cabeçalho
-st.header("Gráficos comparando Dados")
+st.subheader("Gráficos comparando Dados")
 st.write("Indicadores ao longo do Tempo")
 fig, ax = plt.subplots()
 dfe.plot()
