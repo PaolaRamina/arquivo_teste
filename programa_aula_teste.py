@@ -7,8 +7,8 @@ import matplotlib.pyplot as plt
 # Título na barra do navegador
 st.set_page_config(
 
-page_title="Teste de Site", <br>
-page_icon="😁", <br>
+page_title="Teste de Site",
+page_icon="😁", 
 )
 
 
