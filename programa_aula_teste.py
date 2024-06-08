@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 st.set_page_config(
 
 page_title="Teste de Site",
-page_icon="🐱‍🐉", 
+page_icon="😝", 
 )
 
 
@@ -17,7 +17,7 @@ st.header("Dados da Empresa 1")
 
 arquivo = "https://raw.githubusercontent.com/PaolaRamina/aula_teste/main/empresa1.csv" 
 dfe = pd.read_csv(arquivo, sep=';') 
-st.dataframe(dfe)
+st.dataframe(dfe.head(3))
 
 "---"
 # Cabeçalho
