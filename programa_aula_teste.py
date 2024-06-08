@@ -22,17 +22,17 @@ st.dataframe(dfe.head(3))
 "---"
 # Cabeçalho
 st.header("Gráficos comparando Dados")
-st.subheader("Indicadores ao longo do Tempo")
+st.write("Indicadores ao longo do Tempo")
 fig, ax = plt.subplots()
 dfe.plot()
 st.pyplot(fig)
 
-st.subheader("Dispersão entre EBITDA e o Lucro Operacional")
+st.write("Dispersão entre EBITDA e o Lucro Operacional")
 fig, ax = plt.subplots()
 dfe.plot(kind = 'scatter', x = 'EBITDA', y = 'Lucro operacional')
 st.pyplot(fig)
 
-st.subheader("Histograma do Lucro do Período")
+st.write("Histograma do Lucro do Período")
 fig, ax = plt.subplots()
 dfe["Lucro do período"].plot(kind = 'hist')
 st.pyplot(fig)
