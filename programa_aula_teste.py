@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 st.set_page_config(
 
 page_title="Teste de Site",
-page_icon="😝", 
+page_icon="😝📈", 
 )
 
 
