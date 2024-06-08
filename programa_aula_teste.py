@@ -39,5 +39,5 @@ st.pyplot(fig)
 
 "---"
 # Cabeçalho
-st.subheader("Soma dos Valores de cada Ano")
+st.subheader("📍Soma dos Valores de cada Ano")
 st.write(dfe.groupby('Ano').mean())
