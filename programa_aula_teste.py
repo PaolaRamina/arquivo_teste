@@ -33,9 +33,9 @@ dfe.plot(kind = 'scatter', x = 'EBITDA', y = 'Lucro operacional')
 st.pyplot(fig)
 
 st.write("Histograma do Lucro do Período")
-fig, ax = plt.subplots()
-dfe["Lucro do período"].plot(kind = 'hist')
-st.pyplot(fig)
+#fig, ax = plt.subplots()
+#dfe["Lucro do período"].plot(kind = 'hist')
+#st.pyplot(fig)
 
 "---"
 # Cabeçalho
