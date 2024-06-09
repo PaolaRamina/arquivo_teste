@@ -56,7 +56,7 @@ elif idade1 < idade2:
   print(nome2, "é mais velho(a) que", nome1)
 
 else:
-  print(nome1, "e", nome2, "possuem a mesma idade)
+  print(nome1, "e", nome2, "possuem a mesma idade")
 
 
     
