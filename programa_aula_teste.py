@@ -42,8 +42,7 @@ st.pyplot(fig)
 st.subheader("📍Soma dos Valores de cada Ano")
 st.write(dfe.groupby('Ano').mean())
 
-else:
-  st.write(nome1, "e", nome2, "possuem a mesma idade")
+
 
 
     
