@@ -42,19 +42,6 @@ st.pyplot(fig)
 st.subheader("📍Soma dos Valores de cada Ano")
 st.write(dfe.groupby('Ano').mean())
 
-
-"..."
-nome1 = input("Insira o nome da primeira pessoa>")
-idade1 = input("Quantos anos essa pessoa tem?")
-nome2 = input("Insira o nome da segunda pessoa>")
-idade2 = input("Quantos anos essa pessoa tem?")
-
-if idade1 > idade2:
-  st.write(nome1, "é mais velho(a) que", nome2)
-
-elif idade1 < idade2:
-  st.write(nome2, "é mais velho(a) que", nome1)
-
 else:
   st.write(nome1, "e", nome2, "possuem a mesma idade")
 
